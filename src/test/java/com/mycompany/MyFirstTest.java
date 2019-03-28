@@ -22,9 +22,9 @@ public class MyFirstTest {
 	}
 
 	@Test
-	public void google() throws Exception {
+	public void scratchpad() throws Exception {
 		re.startTest();
-		driver.get("http://google.com");
+		driver.get("http://scratchpad.io/recheck-45678");
 		re.check(driver, "open");
 
 		re.capTest();
