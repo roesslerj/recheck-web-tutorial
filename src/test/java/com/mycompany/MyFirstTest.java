@@ -34,6 +34,8 @@ public class MyFirstTest {
 	public void scratchpad() throws Exception {
 		re.startTest();
 		driver.get("http://scratchpad.io/recheck-45678");
+
+		Thread.sleep(1000);
 		re.check(driver, "open");
 
 		re.capTest();
