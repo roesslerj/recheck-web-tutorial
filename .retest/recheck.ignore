@@ -18,6 +18,9 @@ attribute=style
 
 matcher: xpath=HTML[1]/BODY[1]/DIV[1]/P[3]/IFRAME[1], attribute: src
 
+matcher: xpath=HTML[1]/BODY[1]/DIV[2]/A[1], attribute: opacity
+matcher: xpath=HTML[1]/BODY[1]/DIV[2]/A[1], attribute: background-color
+
 attribute=right
 attribute=bottom
 attribute=top
