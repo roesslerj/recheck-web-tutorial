@@ -17,3 +17,8 @@ attribute=transform
 attribute=style
 
 matcher: xpath=HTML[1]/BODY[1]/DIV[1]/P[3]/IFRAME[1], attribute: src
+
+attribute=right
+attribute=bottom
+attribute=top
+attribute=left
