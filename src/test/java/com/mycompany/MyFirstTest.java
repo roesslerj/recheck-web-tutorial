@@ -17,7 +17,6 @@ public class MyFirstTest {
 	@Before
 	public void setup() {
 		re = new RecheckImpl();
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\retest\\Desktop\\recheck-web-tutorial\\src\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 
