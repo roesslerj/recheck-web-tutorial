@@ -12,17 +12,17 @@
 <body>
 There should be a form here:
 
-<form method="get" action="resultPage.html" name="login">
+<form method="get" action="#" name="login">
     <input type="email" id="email"/>
     <input type="number" id="age"/>
     <input type="submit" id="submitButton" value="Hello there"/>
 </form>
 
-<form method="get" action="resultPage.html" name="image">
+<form method="get" action="#" name="image">
     <input type="image" id="imageButton" alt="click me!" src="button.png"/>
 </form>
 
-<form method="get" action="resultPage.html" name="optional" style="display: block">
+<form method="get" action="#" name="optional" style="display: block">
     Here's a checkbox:
     <input type="checkbox" id="checky" name="checky" value="furrfu"/>
     <input type="checkbox" id="checkedchecky" name="checkedchecky" checked="checked" />
@@ -110,7 +110,7 @@ There should be a form here:
     <input type="radio" id="lone_disabled_selected_radio" name="not_a_snack" value="cumberland" checked="checked" disabled="disabled" />Cumberland sausage
 </form>
 
-<form method="get" action="resultPage.html" name="disable">
+<form method="get" action="#" name="disable">
     <input type="text" id="working"/>
     <input type="text" id="notWorking" disabled="true"/>
 
@@ -121,7 +121,7 @@ There should be a form here:
     <textarea id="emptyTextArea" rows="5" cols="5"></textarea>
 </form>
 
-<form method="post" action="resultPage.html">
+<form method="post" action="#">
     <select id="redirect" name="redirect" onchange="javascript:changePage();">
         <option selected="selected" value="one">One</option>
         <option id="changeme" value="two">Two</option>
@@ -134,7 +134,7 @@ There should be a form here:
     <input type="submit" />
 </form>
 
-<form method="get" action="resultPage.html">
+<form method="get" action="#">
   <input type="text" value="name" name="id-name1"/>
   <input type="text" value="id"   id="id-name1"/>
 
@@ -145,7 +145,7 @@ There should be a form here:
 </form>
 
 <!-- form with nested children -->
-<form method="get" action="resultPage.html" id="nested_form">
+<form method="get" action="#" id="nested_form">
   <div>
     <input type="text" value="name" name="x"/>
   </div>
