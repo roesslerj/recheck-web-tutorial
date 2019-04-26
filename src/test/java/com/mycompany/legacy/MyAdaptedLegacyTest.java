@@ -3,7 +3,6 @@ package com.mycompany.legacy;
 import java.nio.file.Paths;
 
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -30,12 +29,12 @@ public class MyAdaptedLegacyTest {
 		driver.findElement(By.id("email")).sendKeys("Max");
 		driver.findElement(By.id("age")).sendKeys("16");
 		driver.findElement(By.name("login")).submit();
-		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
+		//		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
 
 		WebElement nestedForm = driver.findElement(By.id("nested_form"));
 		WebElement input = nestedForm.findElement(By.name("x"));
 		input.sendKeys("\n");
-		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
+		//		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
 
 		driver.findElement(By.id("imageButton")).click();
 		driver.capTest();
