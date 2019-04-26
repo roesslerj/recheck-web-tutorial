@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 
-public class MyFirstTest {
+public class MySecondTest {
 
 	private WebDriver driver;
 	private Recheck re;
@@ -31,9 +31,9 @@ public class MyFirstTest {
 	}
 
 	@Test
-	public void google() throws Exception {
+	public void scratchpad() throws Exception {
 		re.startTest();
-		driver.get("http://google.com");
+		driver.get("http://scratchpad.io/recheck-45678");
 
 		Thread.sleep(1000);
 		re.check(driver, "open");
