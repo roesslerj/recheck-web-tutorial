@@ -25,3 +25,6 @@ attribute=right
 attribute=bottom
 attribute=top
 attribute=left
+
+attribute=.*
+
