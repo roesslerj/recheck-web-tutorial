@@ -27,5 +27,5 @@ attribute=bottom
 attribute=top
 attribute=left
 
-# attribute=.*
+# attribute-regex=.*
 
