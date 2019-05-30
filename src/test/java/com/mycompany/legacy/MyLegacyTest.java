@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MyLegacyTest {
@@ -29,13 +28,6 @@ public class MyLegacyTest {
 		driver.findElement(By.id("age")).sendKeys("16");
 		driver.findElement(By.name("login")).submit();
 		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
-
-		WebElement nestedForm = driver.findElement(By.id("nested_form"));
-		WebElement input = nestedForm.findElement(By.name("x"));
-		input.sendKeys("\n");
-		Assert.assertTrue(driver.getTitle().equals("We Leave From Here"));
-
-		driver.findElement(By.id("imageButton")).click();
 	}
 
 	@After
