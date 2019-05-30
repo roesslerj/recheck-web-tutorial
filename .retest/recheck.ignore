@@ -13,6 +13,7 @@ attribute=jsdata
 attribute=data-.*
 attribute=class
 attribute=outline
+attribute=absolute-outline
 attribute=transform
 attribute=style
 
